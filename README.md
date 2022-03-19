@@ -1,3 +1,5 @@
+TODO-APP is a simple application created using React Js. This application can be used to generate and maintain a set of tasks that the user needs to accomplishe. Once the task gets completed the user can click on the cross button to delete or remove a task from the todo List.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
