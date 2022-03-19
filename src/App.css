@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+*
+{
+   margin: 0px;
+   padding:0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-div
+{
+  background-color: white;
+  width:100%;
+  height:100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+
 }
 
-.App-link {
-  color: #61dafb;
+.center-div
+{
+  width: 500px;
+  height: 80vh;
+  border:2.5px solid black;
+  padding:30px;
+  background-color: rgb(231, 165, 121);
+  box-shadow:5px,5px,25px,-5px,rgba(0,0,0,0.5);
+  border-radius: 20px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center-div h1
+{
+  color:#aa1d04;
+  background-color: antiquewhite;
+  height: 50px;
+  width: 500px;
+  text-align: center;
+  border-radius: 15px;
+}
+.center-div input
+{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  margin-left: 40px;
+  border:none;
+  background: transparent;
+  font-size:20px;
+  font-weight: 500;
+  width:60%;
+  border-bottom: 2px solid #aa1d04;
+  outline:none;
+}
+.center-div button
+{
+ min-height:40px;
+ width:40px;
+ border-radius: 50%;
+ border-color: transparent;
+ background-color: #aa1d04;
+ color:white;
+ font-size: 20px;
+ border:none;
+ outline:none;
+ margin-left: 10px;
+ box-shadow: 5px,5px,15px,-5px, rgba(0,0,0,0.3);
+}
+
+.center-div button:hover
+{
+  background-color: rgb(2, 35, 43);
+}
+
+ol
+{
+  margin-top: 30px;
+}
+ol li
+{
+   padding-left:0px;
+   text-align: left;
+   font-size:20px;
+   font-weight: 500;
+   min-height: 40px;
+   display: flex;
+   align-items: center;
+   color:#aa1d04;
+   text-transform: capitalize;
+}
+
+.toDo_style
+{
+  display:flex;
+  flex-direction:row;
+  justify-content: left;
+  align-items:center;
+}
+
+.toDo_style .deletebuttonstyle
+{
+   width:40px;
+   height:40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #aa1d04;
+   border-radius: 60%;
+   margin: 10px 15px 0 35px;
+   color:white;
+   font-size:20px;
+   box-shadow: 5px, 5px, 15px, -5px, rgba(0,0,0,0.3);
+   line-height: 10px;
+
 }
